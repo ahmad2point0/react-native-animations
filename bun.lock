@@ -4,6 +4,8 @@
     "": {
       "name": "audiology-consultants-app",
       "dependencies": {
+        "@animatereactnative/marquee": "^0.5.2",
+        "@animatereactnative/stagger": "^0.3.0",
         "@expo/vector-icons": "^14.1.0",
         "@react-navigation/bottom-tabs": "^7.3.10",
         "@react-navigation/elements": "^2.3.8",
@@ -56,6 +58,10 @@
     "@alloc/quick-lru": ["@alloc/quick-lru@5.2.0", "", {}, "sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw=="],
 
     "@ampproject/remapping": ["@ampproject/remapping@2.3.0", "", { "dependencies": { "@jridgewell/gen-mapping": "^0.3.5", "@jridgewell/trace-mapping": "^0.3.24" } }, "sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw=="],
+
+    "@animatereactnative/marquee": ["@animatereactnative/marquee@0.5.2", "", { "peerDependencies": { "react": "*", "react-native": "*", "react-native-gesture-handler": ">=2.0.0", "react-native-reanimated": ">=2.2.0" } }, "sha512-8VzfT1zc72aiwgL0NrvchgzVEIGVwVnjp93a/nSmw4vLRyhXh/8GSC/e23nJMGps7dxHeU7UrBMJoN2+Z5sYHg=="],
+
+    "@animatereactnative/stagger": ["@animatereactnative/stagger@0.3.0", "", { "peerDependencies": { "react": "*", "react-native": "*", "react-native-reanimated": ">=2.2.0" } }, "sha512-jqgataLbIsT6enxQfdzO54nIGmyF2BV/jaL0CJaiq0dXuOGiiOOdL3XgRRR0hiqPe0Doo9VtEXI3N/vyzcs6pw=="],
 
     "@babel/code-frame": ["@babel/code-frame@7.27.1", "", { "dependencies": { "@babel/helper-validator-identifier": "^7.27.1", "js-tokens": "^4.0.0", "picocolors": "^1.1.1" } }, "sha512-cjQ7ZlQ0Mv3b47hABuTevyTuYN4i+loJKGeV9flcCgIK37cCXRh+L1bd3iBHlynerhQ7BhCkn2BPbQUL+rGqFg=="],
 

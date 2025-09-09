@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "audiology-consultants-app",
-    "slug": "audiology-consultants-app",
+    "name": "React Native Animations",
+    "slug": "react-native-animations",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./src/assets/images/icon.png",
-    "scheme": "audiologyconsultantsapp",
+    "scheme": "reactnativeanimations",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -17,7 +17,7 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.code2point0.audiologyconsultantsapp"
+      "package": "com.ahmad2point0.reactnativeanimations"
     },
     "web": {
       "bundler": "metro",
