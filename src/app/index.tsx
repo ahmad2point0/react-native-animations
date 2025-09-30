@@ -14,7 +14,12 @@ export default function Index() {
       <Pressable
         onPress={() => router.push("/appleInviteAnimation/appleInvite")}
       >
-        <Text> Apple Invites</Text>
+        <Text className="text-black"> Apple Invites</Text>
+      </Pressable>
+      <Pressable
+        onPress={() => router.push("/onboardpagination/onBoardPagination")}
+      >
+        <Text className="text-black">Pagination Animation</Text>
       </Pressable>
     </View>
   );

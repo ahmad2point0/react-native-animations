@@ -10,6 +10,10 @@ export default function RootLayout() {
           name="appleInviteAnimation"
           options={{ headerShown: false }}
         />
+        <Stack.Screen
+          name="onboardpagination"
+          options={{ headerShown: false }}
+        />
       </Stack>
     </GestureHandlerRootView>
   );
